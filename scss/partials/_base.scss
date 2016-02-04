@@ -1,0 +1,134 @@
+/* CSS RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* BASE STYLES */
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../img/paper-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    line-height: 1.1;
+}
+
+body, p {
+    font-size: 1.6rem;
+    font-family: $halant;
+    letter-spacing: 1px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $quick;
+    letter-spacing: -6px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 8.5rem;
+    font-size: 8vw;
+}
+
+h2 {
+    font-size: 4.5rem;
+    font-size: 3vw;
+    letter-spacing: -2px;
+}
+
+h3 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+a {
+    color: $darkblue;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-cover {
+    /* default fallback */
+    background: rgb(255, 255, 255) transparent;
+    /* nice browsers */
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.back-light {
+    background-color: $offwhite;
+}

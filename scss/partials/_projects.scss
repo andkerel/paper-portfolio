@@ -1,0 +1,74 @@
+#projects {
+
+    h3 {
+        margin: 0 60px 30px 60px;
+        border-bottom: 1px solid $blue;
+    }
+
+    .single {
+        position: relative;
+        padding: 0 30px;
+        .title {
+            transform: rotate(90deg);
+            position: absolute;
+            top:39%;
+            left: -20px;
+            font-weight: 600;
+            color: #fff;
+            h4 {
+                margin-bottom: 0;
+                letter-spacing: -1px;
+                font-size: 2.2rem;
+                padding: 10px;
+                background-color: $grey;
+            }
+        }
+        .description {
+            padding-left: 110px;
+            padding-right: 30px;
+            .text {
+                width: calc(100% - 225px);
+                -webkit-column-width: 200px;
+                -moz-column-width: 200px;
+                column-width: 200px;
+                display: inline-block;
+
+            }
+            img {
+                width: 200px;
+                border: 1px solid $darkblue;
+                margin: 0px 20px 0 0;
+                display: inline-block;
+                vertical-align: top;
+
+                -webkit-box-shadow: -10px 10px 30px -12px rgba(0,0,0,0.65);
+                -moz-box-shadow: -10px 10px 30px -12px rgba(0,0,0,0.65);
+                box-shadow: -10px 10px 30px -12px rgba(0,0,0,0.65);
+            }
+        }
+    }
+
+    .single.right {
+        .title {
+            right: -20px;
+            left: auto;
+        }
+        .description {
+            text-align: right;
+            padding-right: 110px;
+            padding-left: 30px;
+            .text {
+                text-align: left;
+            }
+            img {
+                margin: 0px 0px 0px 20px;
+            }
+        }
+    }
+
+}
+
+// //right 
+//                 -webkit-box-shadow: 10px 10px 30px -12px rgba(0,0,0,0.65);
+//                 -moz-box-shadow: 10px 10px 30px -12px rgba(0,0,0,0.65);
+//                 box-shadow: 10px 10px 30px -12px rgba(0,0,0,0.65);

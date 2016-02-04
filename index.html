@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>andrea kereliuk; web developer</title>
+    
+<!-- FOR DEV -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<!--     // <script src="js/vendor/angular.min.js"></script>
+    // <script src="js/vendor/angular-route.min.js"></script> -->
+    <script src="js/app.js"></script>
+
+    
+<!-- FOR DIST -->
+<!-- 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/style.min.css">
+    <script src="dist/script.min.js"></script>
+    //separate out angular files in gulp?
+-->
+
+</head>
+<body>
+    <div class="bg-cover">
+        <header>
+            <hgroup>
+                <h1>andrea kereliuk</h1>
+                <div class="bg-snippet"></div>
+                <h2>
+                    web developer, bio degree-holder, learner in perpetuity
+                </h2>
+            </hgroup>
+            <div class="intro">
+                <div class="columns">
+                    <div class="description">
+                        <img class="logo" src="img/logo-op.svg" alt="The site logo of andrea kereliuk. There is an illustration of a whale tail in the space in the middle the 'a' in andrea's initials 'ak'" />
+                        <p>
+                            i am a <span class="back-light">web developer</span> with an interest and eye for design. i take pride on my ability to learn quickly and figure things out, but also enjoy collaborating with others and absorbing the collective wisdom of my peers. 
+                        </p>
+                        <p>
+                            lately, i have been taking a more involved interest in <span class="strikethrough">accessibility</span> <span class="back-light">usability</span> on the web and i want to learn to make things that are creative and cool - for everyone. in that vein, if anything on this site is being unnecessarily difficult to view or use, please tell me so i can learn from it!
+                        </p>
+                        <p class="col-span">
+                            recently (or not if you're reading this at any time greater than or equal to february, 2016), i came across <a href="https://www.youtube.com/watch?v=ZNpn7FBp_9U" target="_blank">this mind-blowing and eye-opening talk</a> by <a href="http://thewebahead.net/" target="_blank">jen simmons</a> on the design ruts we have seemed to have gotten ourselves into as creators of the web. 
+                            and i wanted to try some things to mix it up. hint: chrome and safari support css shapes.
+                        </p>
+                        <p>
+                            i am currently <span class="back-light">happily working</span> at <a href="http://www.ecentricarts.com" target="_blank">ecentricarts</a>, i am a <span class="back-light">graduate</span> of sheridan college's <a href="https://academics.sheridancollege.ca/programs/interactive-media-management" target="_blank">imm program</a>, and i hold a <span class="back-light">b.sc. in wild life biology</span> from the <a href="https://www.uoguelph.ca/registrar/calendars/undergraduate/2010-2011/c10/c10bsc-wlb.shtml" target="_blank">university of guelph</a>. please continue exploring this page to see some stuff i've made!
+                        </p>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com/andkerel" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                    <a href="https://www.linkedin.com/pub/andrea-kereliuk/a3/1ba/841" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                    <a href="https://github.com/andkerel" target="_blank"><i class="fa fa-github-square"></i></a>
+                    <a href="http://www.andreakereliuk.com/blog" target="_blank"><i class="fa fa-wordpress"></i></a>
+                </div>
+            </div>
+             
+
+            <nav>
+                <ul>
+                    <li><a class="nav-link" href="#">projects</a></li>
+                    <li><a class="nav-link" href="#">about</a></li>
+                    <li><a class="nav-link" href="#">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="projects">
+            <h3>projects</h3>
+            <div class="single">
+                <div class="title">
+                    <h4>website 2.0: paper</h4>
+                </div>
+                <div class="description">
+                    <img src="img/akereliuk-screen.png" alt="a screenshot of this website's mobile view" />
+                    <div class="text">
+                        for the second iteration of my personal site, i was inspired by <span class="back-light">print design</span>. with minimalist decoration and different shapes.
+                    </br>
+                        i used <span class="back-light">css shapes</span> <a href="https://www.w3.org/TR/css-shapes/" target="_blank">module level 1</a> (chrome/safari only) and <span class="back-light">multiple column layouts</span> with some flexbox and transforms to achieve this look. i also leveraged <span class="back-light">gulp</span> as a task runner.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    <!--     <div id="main" ng-app="portfolioApp">
+            <div class="portfolioApp" ng-controller="PortCtrl">
+                <div ng-repeat="item in portfolio | emptyFilter">
+                    <span ng-if="item.name">{{ item.name }}</span>
+                </div>
+                <div ng-repeat="type in codeList">
+                    {{ type }}<br>
+                </div>
+            </div>
+        </div> -->
+
+        <footer>
+            <p class="copy">&#169; andrea kereliuk 2016</p>
+            <p>background photo credit: <a href="http://www.pixeden.com/graphic-web-backgrounds/subtle-paper-tile-pattern-vol2">pixeden.com</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>

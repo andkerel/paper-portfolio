@@ -1,0 +1,31 @@
+{
+    "portfolio": [
+        {
+            "name": "Portfolio",
+            "description": "You're looking at it",
+            "img": "",
+            "href": "http://andreakereliuk.com",
+            "github": "",
+            "behance": "",
+            "code": ["AngularJS", "Gulp", "SASS"]
+        },
+        {
+            "name": "Lingo",
+            "description": "",
+            "img": "",
+            "href": "",
+            "github": "",
+            "behance": "",
+            "code": []
+        },
+        {
+            "name": "",
+            "description": "",
+            "img": "",
+            "href": "",
+            "github": "",
+            "behance": "",
+            "code": []
+        }     
+    ]
+}
